@@ -3,18 +3,6 @@
 
 This project is an API integration with Pipedrive, providing endpoints to manage deals. It includes functionalities for continuous integration (CI), continuous deployment (CD), and ensures reproducibility with Docker.
 
-## Table of Contents
-1. [Getting Started](#getting-started)
-2. [Running Locally](#running-locally)
-   - [Using Docker](#using-docker)
-   - [Without Docker](#without-docker)
-3. [Endpoints](#endpoints)
-4. [CI/CD](#cicd)
-   - [Continuous Integration](#continuous-integration)
-   - [Continuous Deployment](#continuous-deployment)
-5. [Reproducibility](#reproducibility)
-6. [Tests](#tests)
-
 ## Getting Started
 
 ### Prerequisites
