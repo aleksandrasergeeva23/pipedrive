@@ -26,8 +26,8 @@ This project is an API integration with Pipedrive, providing endpoints to manage
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pipedrive-api-integration.git
-   cd pipedrive-api-integration
+   git clone https://github.com/aleksandrasergeeva23/pipedrive.git
+   cd pipedrive
    ```
 
 2. Install dependencies:
@@ -41,12 +41,12 @@ This project is an API integration with Pipedrive, providing endpoints to manage
 
 1. **Build the Docker image**:
    ```bash
-   docker build -t pipedrive-api-integration .
+   docker build -t pipedrive .
    ```
 
 2. **Run the Docker container**:
    ```bash
-   docker run -p 3000:3000 pipedrive-api-integration
+   docker run -p 3000:3000 pipedrive
    ```
 
 3. The application will be accessible at `http://localhost:3000`.
@@ -261,5 +261,3 @@ describe('API Endpoints', () => {
 
 This project integrates with the Pipedrive API to manage deals. It includes comprehensive CI/CD pipelines using GitHub Actions, ensures reproducibility with Docker, and provides clear instructions for running the application locally and in a containerized environment.
 ```
-
-This README includes all the necessary instructions and configurations for running, testing, and deploying your application.
